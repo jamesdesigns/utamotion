@@ -1,4 +1,36 @@
 <Page loaded="pageLoaded">
-    <ActionBar title="My App" class="action-bar"></ActionBar>
-    <Image src="https://user-images.githubusercontent.com/544280/42960643-66d498ac-8b5a-11e8-8946-7224eefea6a5.jpg"></Image>
+    <ActionBar title="UTA Motion" class="action-bar"></ActionBar>
+    <TabView>
+        <TabView.items>
+            <TabViewItem title="Routes">
+                <TabViewItem.view>
+                    <StackLayout class="p-20">
+                        <Label text="Find Your Route" class="font-weight-bold" />
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="Map">
+                <TabViewItem.view>
+                    <StackLayout class="p-20">
+                        <Label text="Map of All Routes" class="font-weight-bold" />
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="Location">
+                <TabViewItem.view>
+                    <StackLayout class="p-20">
+                        <Label text="Current Location" class="font-weight-bold" />
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+             <TabViewItem title="Favorites">
+                <TabViewItem.view>
+                    <StackLayout class="p-20">
+                        <Label text="Favorites" class="font-weight-bold" />
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+        </TabView.items>
+    </TabView>
+
 </Page>
